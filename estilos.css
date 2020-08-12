@@ -275,3 +275,52 @@ main {
   margin-top: 0;
   height: 100%;
 }
+
+@media (max-width: 575px) {
+  .navbar, .actions {
+    display: none;
+  }
+
+  main {
+    margin-top: 130px;
+  }
+
+  .section h1 {
+    font-size: 30px;
+  }
+
+  .section input {
+    width: 190px;
+  }
+
+  .section > img {
+    width: 100%;
+  }
+
+  .go-to-action {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .promo video {
+    width: 100%;
+  }
+
+  .publish {
+    margin-top: 10px;
+  }
+
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .publish input {
+    width: 120px;
+  }
+
+  .publish button {
+    width: 110px;
+    font-size: 12px;
+  }
+}
