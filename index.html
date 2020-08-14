@@ -2,6 +2,8 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="estilos.css">
   <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700;800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
@@ -13,7 +15,7 @@
 </head>
 
 <body>
-  <section class="fixed-header">
+  <!-- <section class="fixed-header">
     <header class="header">
       <a href="#" class="logo">
         <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
@@ -32,7 +34,43 @@
         <button>Start Free Trial</button>
       </div>
     </header>
-  </section>
+  </section> -->
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light py-4">
+    <a href="#" class="navbar-brand logo">
+      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto ">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Platform</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Customers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0 actions justify-content-end">
+        <a href="#">Sign In</a>
+        <button>Start Free Trial</button>
+      </form>
+    </div>
+  </nav>
+
+
 
   <main>
     <section class="section">
@@ -164,7 +202,134 @@
       </article>
     </section>
     <!-- ante de quinta clase -->
+
+
+    <div class="card-container">
+      <div class="container">
+        <div class="row p-2">
+          <div class="col-lg-6 col-md-6 comments">
+            <h1>Growing ecommerce brands rely on Matcha.</h1>
+            <p>
+              You know it’s true: ecommerce businesses succeed when they meaningfully connect with their customers
+              across
+              all channels. The catch? Creating content that fuels that connection takes a lot of time. Time you
+              probably
+              don’t have. Until now.
+
+              Join hundreds of ecommerce marketers who rely on Matcha for reader conversion tools, content analytics,
+              and
+              quality articles to fuel their customer engagement channels and see consistent performance from their
+              blogs.
+            </p>
+            <a class="btn btn-beefy">Who uses Matcha?</a>
+            <img src="https://getmatcha.com/wp-content/uploads/2020/04/logos-matcha.png" alt="logos" />
+          </div>
+
+          <div class="success-stories col-lg-6 col-md-6">
+            <article class="stories-carousel">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                      <div class="card">
+                        <div class="card-img-top everly"></div>
+                        <div class="card-circle-everly"></div>
+                        <div class="card-body">
+
+                          <h5 class="card-title">Everly</h5>
+                          <h4 class="customer-title">
+                            Early-Stage CPG Brand Increases Lead Conversion 20x, Ecommerce Revenue
+                            20%
+                          </h4>
+                          <div class="results">
+                            <img width="40" src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_cart.png"
+                              alt="Cart icon" />
+                            <span style="margin-left: 10px;">
+                              22% of monthly revenue influenced by content
+                            </span>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                      <div class="card">
+                        <div class="card-img-top summit"></div>
+                        <div class="card-circle-summit"></div>
+                        <div class="card-body">
+
+                          <h5 class="card-title">Sea to Summit</h5>
+                          <h4 class="customer-title">
+                            Sea to Summit’s Ecommerce Site Traffic Climbs 189%, New Subscribers 820%
+                          </h4>
+                          <div class="results">
+                            <img width="40"
+                              src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_audiences.png"
+                              alt="Cart icon" />
+                            <span style="margin-left: 10px;">
+                              500% increase in traffic from social media
+                            </span>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                      <div class="card">
+                        <div class="card-img-top mambe"></div>
+                        <div class="card-circle-mambe"></div>
+                        <div class="card-body">
+
+                          <h5 class="card-title">Mambe Waterproof Blankets</h5>
+                          <h4 class="customer-title">
+                            How Mambe Increased Conversions by 327%, Reduced CPL by 60%
+                          </h4>
+                          <div class="results">
+                            <img width="40" src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_target.png"
+                              alt="Cart icon" />
+                            <span style="margin-left: 10px;">
+                              +327% more popup conversions at a 60% lower cost
+                            </span>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
